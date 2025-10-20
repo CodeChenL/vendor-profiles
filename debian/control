@@ -136,6 +136,7 @@ Depends: rockchip-udev,
          task-rockchip-xorg,
          radxa-system-config-rockchip,
          ${misc:Depends},
+Recommends: irqbalance,
 Description: Metapackages for common Rockchip vendor packages
  This package provides prebuilt packages from Rockchip that
  provides a more optimized user experience.

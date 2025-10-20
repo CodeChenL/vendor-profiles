@@ -1,3 +1,4 @@
 #!/usr/bin/env dh-exec
 
 apt/radxa-rk3399 => /etc/apt/preferences.d/radxa-rk3399
+src/usr/lib/irqbalance/rk3399.env => /usr/lib/irqbalance/defaults.env
